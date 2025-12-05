@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pretty Charm World</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Poppins", sans-serif;
+            background-color: #ffffff;
+            color: #333;
+        }
+
+        header {
+            width: 100%;
+            padding: 20px 0;
+            background: linear-gradient(135deg, #ffb6d9, #ffe6f2);
+            text-align: center;
+        }
+
+        header img {
+            width: 100%;
+            max-height: 420px;
+            object-fit: cover;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: #e75480;
+            margin-top: 10px;
+        }
+
+        section {
+            padding: 40px 20px;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        .about {
+            background: #ffeef7;
+            border-radius: 15px;
+            padding: 30px;
+        }
+
+        .about h2 {
+            color: #e75480;
+            font-size: 2rem;
+        }
+
+        .catalog-title {
+            text-align: center;
+            font-size: 2rem;
+            color: #e75480;
+            margin-bottom: 20px;
+        }
+
+        .catalog {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .item {
+            background: #ffeef7;
+            border-radius: 15px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .item img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .item h3 {
+            margin-top: 10px;
+            color: #d6336c;
+        }
+
+        .order {
+            text-align: center;
+            padding: 40px 0;
+        }
+
+        .order a {
+            background: #ff8ab8;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .order a:hover {
+            background: #e75480;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Cover Page Image -->
+    <header>
+        <img src="cover-page.jpg" alt="Pretty Charm World Cover" />
+        <h1>Pretty Charm World</h1>
+    </header>
+
+    <!-- About Section -->
+    <section class="about">
+        <h2>About Us</h2>
+        <p>
+            Welcome to <strong>Pretty Charm World</strong> — your cute, aesthetic and trendy destination
+            for charm bracelets, scoop surprises, and handcrafted accessories. We bring joy, creativity
+            and fun through beautifully designed charm collections made with love.
+        </p>
+    </section>
+
+    <!-- Catalog Section -->
+    <section>
+        <h2 class="catalog-title">Our Catalog</h2>
+        <div class="catalog">
+            <div class="item">
+                <img src="catalog1.jpg" alt="Catalog 1" />
+                <h3>Basic Charm Scoop</h3>
+            </div>
+            <div class="item">
+                <img src="catalog2.jpg" alt="Catalog 2" />
+                <h3>Standard Charm Scoop</h3>
+            </div>
+            <div class="item">
+                <img src="catalog3.jpg" alt="Catalog 3" />
+                <h3>Premium Charm Scoop</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact / Order Section -->
+    <section class="order">
+        <h2>Contact Us</h2>
+        <p>For orders & inquiries, reach us on Instagram:</p>
+        <a href="https://instagram.com/prettey_charm_world" target="_blank">@prettey_charm_world</a>
+    </section>
+
+</body>
+
+</html>
